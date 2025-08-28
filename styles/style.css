@@ -47,6 +47,8 @@
     padding: 165px 50px 50px 50px;
     background-image: url("../images/cover.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left -135px bottom 45%;    
 }
 
 .cover-title {
