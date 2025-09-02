@@ -1,57 +1,94 @@
-/* место для вашего кода */
 
 .header {
-    margin: 0;
-    padding: 92px 50px 96px 50px;
+    padding: 50px;
+    min-height: 293px;
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
     align-items: center;
+    position: relative;
 }
 
 .header-navigation {
-    font-size: 18px;
-    line-height: 1;
+    position: relative;
+    top: -3px;
 }
 
 .header-navigation-list {
+    all:unset;
+    font-size: 18px;
+    font-weight: 400;
     list-style: circle;
     display: flex;
-    gap: 33px;
+    flex-wrap: wrap;
+    gap: 26px;
+}
+
+.header-navigation-list-item-look {
+    padding-left: 6px;
+}
+
+.header-navigation-list-item-about {
+    position: relative;
+    left: 3px;
+    padding-left: 6px;
 }
 
 .header-logo-link {
-    display: block;
+    position: relative;
+    top: -2px;
+    display: inline-block;
     width: 148px;
     height: 105px;
 }
 
-.header-logo-img {
+.header-logo-link-img {
     height: 100%;
 }
 
 .header-contacts {
     all: unset;
+    display: inline-block;
     max-width: 240px;
     font-size: 18px;
     line-height: 1.35;
     font-style: normal;
-    margin-left: 184px;
     justify-self: end;
+    margin-left: -3px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
 
+.header-contacts-tel {
+    position: relative;
+    top: -2.5px;
+    right: -0.5px;
+}
+
+.header-contacts-mail {
+    position: relative;
+    top: -2.5px;
+    right: 0px;
+}
+
+
+.header-contacts-adress {
+    position: relative;
+    top: -2px;
+    right: -1px;
+}
+
 .cover {
     position: relative;
-    padding: 165px 50px 50px 50px;
+    padding: 0px 50px 50px 50px;
     background-image: url("../images/cover.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: left -135px bottom 45%;    
+    background-position: left -135.5px top 0.8px;    
 }
 
 .cover-title {
+    padding-top: 165px;
     font-size: 100px;
     font-weight: 700px;
     line-height: 1.15;
@@ -72,46 +109,45 @@
     display: block;
     text-align: center;
     margin-bottom: 20px;
-    /* костыль */
-    margin-right: -30px;
+    margin-right: -30.5px;
 }
 
 .cover-title-right {
     text-align: end;
     margin-bottom: 20px;
     text-wrap: balance;
-    /* костыль */
-    margin-right: -30px;   
+    margin-right: -30.5px;   
 }
 
 .cover-description {
-    width: 1000px;
-    margin-top: 106px;
+    margin-top: 107.5px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: relative;
     z-index: 1;
+    color:white;
 }
 
 .cover-content {
-    all:unset;
+    all: unset;
+    display: block;
     font-size: 22px;
     line-height: 1.2;
-    color: white;
     text-transform: uppercase;
-    word-spacing: 1.15rem;
+    word-spacing: 18.5px;
 }
 
 .cover-button {
     all: unset;
     font-size: 22px;
+    font-weight: 500;
     line-height: 1.2;
-    color: white;
     text-transform: uppercase;
-    padding: 12px 32px 11px 31px;
+    padding: 11px 32px 11px 32px;
     border: solid white 1px;
     text-align: center;
+    margin-top: -1px;
 }
 
 .lots {
@@ -120,10 +156,11 @@
 
 .lots-title {
     all: unset;
+    display: inline-block;
     font-size: 40px;
     font-weight: 700;
     text-transform: uppercase;
-    margin-top: 0;
+    margin-top: 0.5px;
     margin-left: 40px;
 }
 
@@ -132,7 +169,7 @@
     margin-top: 27px;
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
+    gap: 25px;
 }
 
 .lots-item {
@@ -151,6 +188,9 @@
     flex-direction: column;
     justify-content: space-between;
     position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .lots-item-title {
@@ -162,9 +202,11 @@
     line-height: 1.2;
     color: white;
     text-transform: uppercase;
-    text-decoration: underline;
     position: relative;
     z-index: 1;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.19rem;
 }
 
 .lots-item-text {
@@ -181,26 +223,26 @@
 
 .card-type-film {
     background-image: url("../images/card-lot-01.jpg");
-    background-size: cover;
-    background-position: center;
+
 }
 
 .card-type-book {
     background-image: url("../images/card-lot-02.jpg");
-    background-size: cover;
-    background-position: center;
 }
 
 .card-type-picture {
     background-image: url("../images/card-lot-03.jpg");
-    background-size: cover;
-    background-position: center;
 }
 
 .lots-look-more-link {
+    all: unset;
+    display: inline-block;
     font-size: 20px;
     margin-top: 30px;
     margin-left: 40px;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.30rem;
 }
 
 .about {
@@ -236,19 +278,21 @@
     font-weight: bold;
     text-transform: uppercase;
     margin-top: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 76px;
+    margin-left: -2px;
 }
 
 .about-information-text {
+    display: inline-block;
     font-size: 20px;
     line-height: 1.2;
     margin-top: 24px;
-    margin-right: 5px;
+    margin-left: -2px;
+    padding-right: 3px;
 }
 
-
 .footer {
-    margin: 180px 0 0 0;
+    margin: 181px 0 0 0;
     padding: 0 50px 82px 50px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -264,6 +308,12 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    gap: -2px;
+}
+
+.footer-contacts-adress {
+    padding-left: 1px;
+    padding-top: 1px;
 }
 
 .footer-navigation {

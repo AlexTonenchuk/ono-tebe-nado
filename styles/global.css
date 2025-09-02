@@ -29,7 +29,8 @@ a {
   color: inherit;
   display: block;
   text-decoration: underline;
-  text-underline-offset: 0.2em;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.25rem;
 }
 
 img {
