@@ -26,8 +26,8 @@ blockquote {
 }
 
 a {
-  color: inherit;
   display: block;
+  color: inherit;
   text-decoration: underline;
   text-decoration-thickness: 1px;
   text-underline-offset: 0.25rem;
@@ -49,10 +49,10 @@ img {
     position: absolute;
     top: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, 0.489);
+    z-index: 0;
     width: 100%;
     height: 100%;
-    z-index: 0;
+    background-color: rgba(0, 0, 0, 0.489);
 }
 
 
