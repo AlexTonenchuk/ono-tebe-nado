@@ -46,13 +46,10 @@
   top: 0.5px;
   left: 0.5px;
   height: 100%;
-  transform: scaleX(0.995);
-  transform: scaleY(1.005);
+  transform: scaleX(0.995) scaleY(1.005);
 }
 
 .header-contacts {
-  
-  display: inline-block;
   display: flex;
   flex-direction: column;
   justify-self: end;
