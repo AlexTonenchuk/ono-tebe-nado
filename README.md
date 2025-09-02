@@ -1,1 +1,1 @@
-https://github.com/AlexTonenchuk/ono-tebe-nado
+https://github.com/AlexTonenchuk/ono-tebe-nado.git
