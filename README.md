@@ -1,1 +1,1 @@
-https://github.com/AlexTonenchuk/ono-tebe-nado/tree/main
+https://github.com/AlexTonenchuk/ono-tebe-nado
