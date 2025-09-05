@@ -7,7 +7,7 @@
 body {
   width: 1100px;
   margin: 0 auto;
-  font-family: Raleway, sans-serif;
+  font-family: Raleway, Arial, sans-serif; 
 }
 
 h1,
@@ -35,14 +35,6 @@ a {
 
 img {
   width: 100%;
-}
-
-.no-bulet {
-    list-style-type: none;
-}
-
-.link-active {
-    text-decoration: none;
 }
 
 .overlay {
