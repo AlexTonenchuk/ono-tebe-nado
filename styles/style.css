@@ -3,13 +3,7 @@
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  min-height: 293px;
-  padding: 50px;
-}
-
-.navigation {
-  position: relative;
-  bottom: 3px;
+  padding: 92px 50px 96px 50px;
 }
 
 .navigation__list {
@@ -32,17 +26,12 @@
 }
 
 .header__logo-link {
-  position: relative;
-  bottom: 2px;
   display: inline-block;
   width: 148px;
   height: 105px;
 }
 
 .header__logo-link-img {
-  position: relative;
-  top: 0.5px;
-  left: 0.5px;
   height: 100%;
   transform: scaleX(0.995) scaleY(1.005);
 }
@@ -63,7 +52,7 @@
   padding: 0px 50px 50px 50px;
   background-image: url("../images/cover.jpg");
   background-repeat: no-repeat;
-  background-position: left -135.5px top 0.8px;
+  background-position: center;
   background-size: cover;
 }
 
@@ -72,7 +61,7 @@
   z-index: 1;
   padding-top: 155px;
   color: white;
-  font-weight: 700px;
+  font-weight: 700;
   font-size: 100px;
   line-height: 1.35;
   letter-spacing: 1.9rem;
@@ -86,13 +75,14 @@
 
 .cover__title-item_align-center {
   display: block;
+  /* -0.3 сказано сделать в комментах */
   margin-right: -0.3em;
   text-align: center;
 }
 
 .cover__title-item_align-right {
   display: block;
-  /* margin-left: 30.5px; почему-то не работает */
+  /* -0.3 сказано сделать в комментах */
   margin-right: -0.3em;
   text-align: end;
 }
@@ -178,7 +168,7 @@
   margin-right: 40px;
   margin-left: 40px;
   color: white;
-  font-weight: 700px;
+  font-weight: 700;
   font-size: 22px;
   line-height: 1.2;
   text-decoration: underline;
@@ -194,7 +184,7 @@
   margin-bottom: 48px;
   margin-left: 40px;
   color: white;
-  font-weight: 400px;
+  font-weight: 400;
   font-size: 20px;
   line-height: 1.2;
 }
@@ -284,9 +274,9 @@
 .footer__navigation-list_align-center {
   flex-direction: column;
   align-items: center;
-  gap: 0px;
-  margin-top: 4px;
+  margin-top: 2px;
   list-style: none;
+  gap: 0px;
 }
 
 .footer__socials-list { 
