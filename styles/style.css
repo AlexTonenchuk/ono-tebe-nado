@@ -216,7 +216,7 @@
 
 .about {
   display: grid;
-  grid-template-columns: 314px auto;
+  grid-template-columns: 312px auto;
   margin: 120px 24px 0px 24px;
   padding: 35px 0px 0px 47px;
 }
@@ -248,11 +248,9 @@
 }
 
 .about__information-text {
-  position: relative;
-  right: 2px;
   display: inline-block;
   margin-top: 24px;
-  margin-right: 2px;
+  margin-right: 5px;
   font-size: 20px;
   line-height: 1.2;
 }
@@ -263,6 +261,7 @@
   justify-items: center;
   width: 100%;
   margin-top: 180px;
+  margin-bottom: 80px;
 }
 
 .footer__contacts_align-left {
@@ -284,9 +283,9 @@
   display: flex;
   justify-self: end;
   justify-content: space-between;
-  gap: 50px;
-  margin-left: 26px;
+  gap: 48px;
   list-style-type: none; 
+  margin-right: 50px;
 }
 
 .footer__socials-link-logo {
